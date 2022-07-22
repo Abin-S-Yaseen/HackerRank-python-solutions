@@ -9,3 +9,5 @@ if __name__ == '__main__':
 lst = []
 word = ""
 for i in range(1,n+1):
+    lst.append(i)
+for i in lst:
