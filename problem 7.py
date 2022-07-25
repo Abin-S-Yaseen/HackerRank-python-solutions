@@ -11,3 +11,5 @@ word = ""
 for i in range(1,n+1):
     lst.append(i)
 for i in lst:
+    word = word + str(i)
+print(word)
