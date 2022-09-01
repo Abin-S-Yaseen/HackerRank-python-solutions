@@ -3,3 +3,5 @@
 # You are given n scores.
 # Store them in a list and find the score of the runner-up.
 
+if __name__ == '__main__':
+    n = int(raw_input())
