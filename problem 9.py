@@ -8,3 +8,4 @@ if __name__ == '__main__':
     arr = map(int, raw_input().split())
 arr.sort()
 for i in range(1,n):
+    if arr[-i] != arr[-i-1]:
