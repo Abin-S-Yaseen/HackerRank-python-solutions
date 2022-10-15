@@ -10,3 +10,4 @@ arr.sort()
 for i in range(1,n):
     if arr[-i] != arr[-i-1]:
         print(arr[-i-1])
+        break
